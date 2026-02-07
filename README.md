@@ -7,12 +7,12 @@ An intelligent threat detection solution leveraging machine learning algorithms 
 This project implements a comprehensive network security monitoring system that uses advanced machine learning techniques to detect abnormal traffic patterns. The system generates synthetic network data for training and testing, making it an ideal foundation for cybersecurity research and development.
 
 📁 Project Architecture
-
+`
 ├── aithreatdetection.py              # Core ML model training and evaluation
 ├── generatesyntheticnetworkdata.py  # Synthetic dataset generation
 ├── generatesynthetictraffic.py       # PCAP file generation for packet analysis
 └── syntheticnetworkdata.csv          # Generated training data (auto-created)
-
+`
 
 Core Components
 • aithreatdetection.py: Main detection engine that implements the Isolation Forest algorithm for anomaly detection
